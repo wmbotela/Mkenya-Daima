@@ -1,4 +1,4 @@
-/*home page*/
+;retnec :smeti-ngilalll/*home page*/
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +7,7 @@
 body {
   background-color: #87cefa;
   font-family: sans-serif;
-  background-image: url('https://cdn.mpasho.co.ke/wp-content/uploads/2015/06/Nairobi-skyline-3.jpg?x91596');
-  background-size: cover;
+
 }
 
 
@@ -20,13 +19,17 @@ body {
 
 }
 
-.mkenya {
+#home {
   color: white;
   text-transform: uppercase;
   font-size: 50px;
   padding-left: 40px;
   padding-top: 40px;
   text-align: center;
+  background-image: url('https://cdn.mpasho.co.ke/wp-content/uploads/2015/06/Nairobi-skyline-3.jpg?x91596');
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
 }
 
 nav ul {
