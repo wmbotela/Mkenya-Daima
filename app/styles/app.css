@@ -23,7 +23,7 @@ body {
 .mkenya {
   color: white;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 50px;
   padding-left: 40px;
   padding-top: 40px;
   text-align: center;
@@ -32,13 +32,16 @@ body {
 nav ul {
   width: 900px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 223, 0, 0.5);
   text-align: center;
   border-radius: 60px;
 }
 
 section {
   color: white;
+  letter-spacing: 8px;
+  border-top: 10px;
+  padding: 10px;
 }
 
 nav ul li {
@@ -55,12 +58,15 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: 400;
   color: black;
-  transition: background-color 0.5s ease;
+  transition: background-color .8s ease;
 }
 
 nav ul li a:hover {
   background-color: #fff;
-  background-color: rgba(255, 223, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #fff;
+
 }
 
 /*start footer*/
@@ -164,6 +170,7 @@ footer {
   font-weight: 700;
   color: #000000;
   margin-bottom: 22px;
+  letter-spacing: 6px;
 }
 
 .post p {
