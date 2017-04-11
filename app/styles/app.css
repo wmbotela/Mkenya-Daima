@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #87cefa;
+  font-family: sans-serif;
+  background-image: url('https://cdn.mpasho.co.ke/wp-content/uploads/2015/06/Nairobi-skyline-3.jpg?x91596');
+  background-size: cover;
+}
+
+
+.nav-section {
+  width: 100%;
+  padding: 20% 0;
+  padding-top: 100px;
+
+
+}
+
+.mkenya {
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding-left: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+nav ul {
+  width: 900px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  border-radius: 60px;
+}
+
+section {
+  color: white;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 30px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: black;
+  transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+footer {
+  background-color: #0c1a1e;
+  min-height: 350px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footerleft {
+  margin-top: 50px;
+  padding: 0 36px;
+}
+
+.logofooter {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footerleft p {
+  color: #fff;
+  font-size: 12px !important;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+}
+
+.footerleft p i {
+  width: 20px;
+  color: #999;
+}
+
+.paddingtop-bottom {
+  margin-top: 50px;
+}
+
+.footer-ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 2px;
+}
+
+.footer-ul li {
+  line-height: 29px;
+  font-size: 12px;
+}
+
+.footer-ul li a {
+  color: #a0a3a4;
+  transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+
+.footer-ul i {
+  margin-right: 10px;
+}
+
+.footer-ul li a:hover {
+  transition: color 0.2s linear 0s, background 0.2s linear 0s;
+  color: #ff670f;
+}
+
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.icon-ul {
+  list-style-type: none !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.icon-ul li {
+  line-height: 75px;
+  width: 100%;
+  float: left;
+}
+
+.icon {
+  float: left;
+  margin-right: 5px;
+}
+
+.copyright {
+  min-height: 40px;
+  background-color: #000000;
+}
+
+.copyright p {
+  text-align: left;
+  color: #FFF;
+  padding: 10px 0;
+  margin-bottom: 0px;
+}
+
+.heading7 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #d9d6d6;
+  margin-bottom: 22px;
+}
+
+.post p {
+  font-size: 12px;
+  color: #FFF;
+  line-height: 20px;
+}
+
+.post p span {
+  display: block;
+  color: #8f8f8f;
+}
+
+.bottom_ul {
+  list-style-type: none;
+  float: right;
+  margin-bottom: 0px;
+}
+
+.bottom_ul li {
+  float: left;
+  line-height: 40px;
+}
+
+.bottom_ul li:after {
+  content: "/";
+  color: #FFF;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.bottom_ul li a {
+  color: #FFF;
+  font-size: 12px;
+}
+
+.end{
+  color: white;
+  text-align: justify;
+  font-size: 12px;
+}
