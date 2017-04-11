@@ -121,6 +121,12 @@ footer {
   transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
 
+.footer-ul li a:hover  {
+  text-decoration: none;
+  color: #fff;
+}
+
+
 .footer-ul i {
   margin-right: 10px;
 }
@@ -205,6 +211,11 @@ footer {
 .bottom_ul li a {
   color: #FFF;
   font-size: 12px;
+}
+
+.bottom_ul li a:hover {
+  text-decoration: none;
+  color: #FFDF00;
 }
 
 .end {
