@@ -1,3 +1,4 @@
+;retnec :smeti-ngilalll/*home page*/
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +7,7 @@
 body {
   background-color: #87cefa;
   font-family: sans-serif;
-  background-image: url('https://cdn.mpasho.co.ke/wp-content/uploads/2015/06/Nairobi-skyline-3.jpg?x91596');
-  background-size: cover;
+
 }
 
 
@@ -19,25 +19,32 @@ body {
 
 }
 
-.mkenya {
+#home {
   color: white;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 50px;
   padding-left: 40px;
   padding-top: 40px;
   text-align: center;
+  background-image: url('https://cdn.mpasho.co.ke/wp-content/uploads/2015/06/Nairobi-skyline-3.jpg?x91596');
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
 }
 
 nav ul {
   width: 900px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 223, 0, 0.5);
   text-align: center;
   border-radius: 60px;
 }
 
 section {
   color: white;
+  letter-spacing: 10px;
+  border-top: 10px;
+  padding: 10px;
 }
 
 nav ul li {
@@ -52,18 +59,28 @@ nav ul li a {
   padding: 30px 30px;
   font-size: 20px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   color: black;
-  transition: background-color 0.5s ease;
+  transition: background-color .9s ease;
 }
 
 nav ul li a:hover {
   background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: #fff;
+
 }
 
+nav ul li a:active {
+  color: #fff;
+  text-decoration: underline;
+
+}
+/*start footer*/
+
 footer {
-  background-color: #0c1a1e;
+  background-color: rgba(255,223,0, 0.8);
   min-height: 350px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -76,12 +93,12 @@ footer {
 .logofooter {
   margin-bottom: 10px;
   font-size: 25px;
-  color: #fff;
+  color: 	#000000;
   font-weight: 700;
 }
 
 .footerleft p {
-  color: #fff;
+  color: #000000;
   font-size: 12px !important;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 15px;
@@ -89,7 +106,7 @@ footer {
 
 .footerleft p i {
   width: 20px;
-  color: #999;
+  color: #64640C;
 }
 
 .paddingtop-bottom {
@@ -108,9 +125,11 @@ footer {
 }
 
 .footer-ul li a {
-  color: #a0a3a4;
+  color: #000000;
   transition: color 0.2s linear 0s, background 0.2s linear 0s;
+  font-size: 14px;
 }
+
 
 .footer-ul i {
   margin-right: 10px;
@@ -118,7 +137,8 @@ footer {
 
 .footer-ul li a:hover {
   transition: color 0.2s linear 0s, background 0.2s linear 0s;
-  color: #ff670f;
+  text-decoration: none;
+  color: #fff;
 }
 
 .social:hover {
@@ -159,8 +179,9 @@ footer {
 .heading7 {
   font-size: 21px;
   font-weight: 700;
-  color: #d9d6d6;
+  color: #000000;
   margin-bottom: 22px;
+  letter-spacing: 6px;
 }
 
 .post p {
@@ -197,11 +218,24 @@ footer {
   font-size: 12px;
 }
 
-.end{
-  color: white;
-  text-align: justify;
-  font-size: 12px;
+.bottom_ul li a:hover {
+  text-decoration: none;
+  color: #FFDF00;
 }
+
+.end {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.end p {
+  font-size: 12px;
+  font-weight: normal;
+
+}
+<<<<<<< HEAD
 .product-tshirt{
   background-blend-mode: lighten;
   height: 200px;
@@ -209,3 +243,9 @@ footer {
 
 
 }
+=======
+
+/*end footer*/
+
+/*end home page*/
+>>>>>>> 8af6b29669135e7e2bfcb69619d3b1b5147a9a50
