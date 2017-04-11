@@ -235,7 +235,17 @@ footer {
   font-weight: normal;
 
 }
+<<<<<<< HEAD
 
 /*end footer*/
 
 /*end home page*/
+=======
+.product-tshirt{
+  background-blend-mode: lighten;
+  height: 200px;
+  
+
+
+}
+>>>>>>> 1ac158ea31dd22f3a1039f478877dff28f6bb1ed
