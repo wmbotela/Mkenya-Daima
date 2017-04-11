@@ -39,7 +39,7 @@ nav ul {
 
 section {
   color: white;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   border-top: 10px;
   padding: 10px;
 }
@@ -69,6 +69,11 @@ nav ul li a:hover {
 
 }
 
+nav ul li a:active {
+  color: #fff;
+  text-decoration: underline;
+
+}
 /*start footer*/
 
 footer {
@@ -119,11 +124,7 @@ footer {
 .footer-ul li a {
   color: #000000;
   transition: color 0.2s linear 0s, background 0.2s linear 0s;
-}
-
-.footer-ul li a:hover  {
-  text-decoration: none;
-  color: #fff;
+  font-size: 14px;
 }
 
 
@@ -133,7 +134,8 @@ footer {
 
 .footer-ul li a:hover {
   transition: color 0.2s linear 0s, background 0.2s linear 0s;
-  color: #ff670f;
+  text-decoration: none;
+  color: #fff;
 }
 
 .social:hover {
