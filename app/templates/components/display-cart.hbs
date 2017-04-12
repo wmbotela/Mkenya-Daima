@@ -1,1 +1,11 @@
-{{yield}}
+<ul>
+{{#each shoppingCart.items as |item|}}
+  <li><a {{action 'showItemDetails'}}>{{item.title}}</a> Ksh {{item.cost}}</li>
+  {{#if itemIsClicked}}
+    <img src={{item.image}}>
+    <p>{{item.description}}</p>
+  {{/if}}
+{{/each}}
+</ul>
+
+<h3>Total: Ksh: {{shoppingCart.total}}</h3>
