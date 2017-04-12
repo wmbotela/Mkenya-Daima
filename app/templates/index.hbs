@@ -14,22 +14,23 @@
   <nav>
     <ul>
 
-
-
-      <li><a href="#home">Home</a></li>
-      <li><a href="#tshirts">Tshirts</a></li>
+      <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+      <li><a href="#tshirts">Tshirt</a></li>
       <li><a href="#hoodies">Hoodies</a></li>
-      <li><a href="#accesories">Accesories</a></li>
+      <li><a href="#accessories">Accesories</a></li>
       <li><a href="#">Checkout</a></li>
     </ul>
   </nav>
 </div>
-
-  <!-- end of navbar -->
-{{outlet}}
-
-
 </div>
+  <!-- end of navbar -->
+<!--Tshirt  -->
+
+{{tishirt-tile }}
+<!--Tshirt End  -->
+
+
+{{outlet}}
 
 <!--footer start from here-->
 <footer>
@@ -80,4 +81,4 @@
   </div>
 </div>
 
-{{outlet}}
+x
