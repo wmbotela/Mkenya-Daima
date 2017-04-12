@@ -1,1 +1,8 @@
-{{yield}}
+<div class="col-md-4">
+{{#link-to 'product' product.id}}<h3>{{product.title}}</h3>{{/link-to}}
+<img class="thumbnail" src={{product.image}}>
+<h4>Ksh {{product.cost}}</h4>
+<p>{{product.description}}</p><br>
+<button class="btn btn-success"{{action 'addToCart' product}}>Add to Cart</button>
+<hr>
+</div>
