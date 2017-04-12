@@ -27,18 +27,12 @@
 </div>
 <!-- end of navbar -->
 <!--Tshirt  -->
-
-{{tishirt-tile }}
+{{#each model as |product|}}
+  {{tishirt-tile product=product}}
+{{/each}}
 <!--Tshirt End  -->
-
-
 {{outlet}}
-
 <!--footer start from here-->
-<div class="well">
-  <div id="checkout">
-  </div>
-</div>
 <footer>
   <div class="container">
     <div class="row">

@@ -14,13 +14,13 @@ module.exports = function(environment) {
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
-      },
-      firebase: {
-       apiKey: "AIzaSyB1vjjFvnP6BK1_EkSg8Zn-mMOF97yrcM4",
-       authDomain: "mkenyadaama.firebaseapp.com",
-       databaseURL: "https://mkenyadaama.firebaseio.com",
-       storageBucket: "mkenyadaama.appspot.com",
-     }
+      }
+    },
+    firebase: {
+      apiKey: "AIzaSyB1vjjFvnP6BK1_EkSg8Zn-mMOF97yrcM4",
+      authDomain: "mkenyadaama.firebaseapp.com",
+      databaseURL: "https://mkenyadaama.firebaseio.com",
+      storageBucket: "mkenyadaama.appspot.com",
     },
 
     APP: {
