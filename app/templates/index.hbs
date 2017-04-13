@@ -18,22 +18,29 @@
           {{#link-to 'index'}}Home{{/link-to}}
         </li>
         <li><a href="#tshirts">Tshirt</a></li>
-        <li><a href="#hoodies">Hoodies</a></li>
-        <li><a href="#accessories">Accesories</a></li>
-        <li><a href="#">Checkout</a></li>
+        <li><a href="#tshirts">Hoodies</a></li>
+        <li><a href="#tshirts">Accesories</a></li>
+        <li><a href="#checkout">Checkout</a></li>
       </ul>
     </nav>
   </div>
 </div>
 <!-- end of navbar -->
 <!--Tshirt  -->
-{{#each model as |product|}}
-  {{tishirt-tile product=product}}
-{{/each}}
+
+
+
 
 <div class="well">
-  <h2>Items Added To Cart</h2>
-{{display-cart}}
+
+  <div id="tshirts">
+    {{#each model as |product|}}
+      {{tishirt-tile product=product}}
+    {{/each}}
+  </div>
+  <div id="checkout">
+    <h2>Items Added To Cart</h2> {{display-cart}}
+  </div>
 </div>
 <!--Tshirt End  -->
 {{outlet}}
@@ -58,7 +65,7 @@
             <li><a href="#tshirts"> Tshirts</a></li>
             <li><a href="#hoodies"> Hoodies</a></li>
             <li><a href="#accesories">Accesories</a></li>
-            <li><a href="#">Checkout</a></li>
+            <li><a href="#checkout">Checkout</a></li>
           </ul>
         </div>
       </center>
