@@ -1,19 +1,31 @@
 <div class="row">
   <div class="col-md-4">
-<ul>
-{{#each shoppingCart.items as |item|}}
-  <li><a {{action 'showItemDetails'}}>{{item.title}}</a> Ksh {{item.cost}}</li>
-  {{#if itemIsClicked}}
-    <img src={{item.image}}>
-    <p>{{item.description}}</p>
-  {{/if}}
-{{/each}}
-</ul>
-<button class="btn btn-success"{{action 'addToCart' product}}>Proceed-To-Checkout</button>
-</div>
-<div class="col-md-8">
-<img src="http://www.smartwebkenya.com/images/homepage/Paypal-payment-options-logo.png">
-</div>
-
-<h3>Total: Ksh: {{shoppingCart.total}}</h3>
+    <ul>
+      {{#each shoppingCart.items as |item|}}
+        <li><a {{action 'showItemDetails'}}>{{item.title}}</a> Ksh {{item.cost}}</li>
+        {{#if itemIsClicked}}
+          <img src= {{item.image}}>
+          <p>{{item.description}}</p>
+        {{/if}}
+      {{/each}}
+    </ul>
+    <button class="btn btn-success" {{action 'addToCart' product}}>Proceed-To-Checkout</button>
+  </div>
+  <div class="col-md-8">
+    <center>
+      <h2><u>Payment Methods</u></h2></center>
+    <div>
+      <a href="https://www.safaricom.co.ke">
+        <img src="https://softkenya.com/kenya/wp-content/uploads/2015/08/Lipa-Na-Mpesa-CHarges.jpg" class="img-circle" width="184" height="136">
+      </a>
+      <a href="https://www.paypal.com">
+        <img src="http://res.cloudinary.com/hmdenahha/image/upload/v1486462923/new-paypal-logo_kevpez.jpg" class="img-circle" width="184" height="136">
+      </a>
+      <a href="https://www.visa.com">
+        <img src="https://static-eu.insales.ru/files/1/4805/2429637/original/visa-logo.jpg" class="img-circle" width="184" height="136">
+      </a>
+    </div>
+  </div>
+  <hr>
+  <h2 style="color:red; font-size:30px;"><b>Total: Ksh: {{shoppingCart.total}}</b></h2>
 </div>
