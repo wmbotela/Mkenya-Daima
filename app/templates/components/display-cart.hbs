@@ -1,3 +1,5 @@
+<div class="row">
+  <div class="col-md-4">
 <ul>
 {{#each shoppingCart.items as |item|}}
   <li><a {{action 'showItemDetails'}}>{{item.title}}</a> Ksh {{item.cost}}</li>
@@ -7,5 +9,11 @@
   {{/if}}
 {{/each}}
 </ul>
+<button class="btn btn-success"{{action 'addToCart' product}}>Proceed-To-Checkout</button>
+</div>
+<div class="col-md-8">
+<img src="http://www.smartwebkenya.com/images/homepage/Paypal-payment-options-logo.png">
+</div>
 
 <h3>Total: Ksh: {{shoppingCart.total}}</h3>
+</div>

@@ -5,8 +5,10 @@ export default Ember.Component.extend({
 
   actions: {
     addToCart(item) {
-      this.get('shoppingCart').add(item);
-      this.get('shoppingCart').calculateTotal();
+      if (confirm('Are you sure you want to add this item to cart?')) {
+        this.get('shoppingCart').add(item);
+        this.get('shoppingCart').calculateTotal();
+      }
     },
   }
 });
